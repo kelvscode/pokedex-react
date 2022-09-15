@@ -4,7 +4,7 @@
 <p align="center"> Pokedéx interativa que lhe dá a opção de navegar por diversos pokemóns e selecionar o seu favorito! </p>
 
 ### Responsivo
-<img src="https://cdn.discordapp.com/attachments/657955105672396800/1019981397219344594/unknown.png" width="700px" height="570px"> <img src="https://cdn.discordapp.com/attachments/657955105672396800/1019982536790777897/unknown.png" width="300px" height="570px">
+<img src="https://cdn.discordapp.com/attachments/657955105672396800/1019981397219344594/unknown.png" width="500px" height="370px">    <img src="https://cdn.discordapp.com/attachments/657955105672396800/1019982536790777897/unknown.png" width="300px" height="370px">
 
 
 ### Tecnologias utilizadas:
