@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=PT+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', sans-serif;
+}
+body {
+    background-color: #0d0d0d;
+}
+.container{
+    width:80%;
+    margin:auto;
+    padding-top: 100px;
+    display:flex;
+}
+.left-content, .right-content{
+    flex-basis: 50%;
+}
+.left-content{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,0.5fr));
+    grid-gap: 3.8rem;
+}
+.right-content{
+    width:50%;
+    text-align: center;
+    color:#fff;
+    position: fixed;
+    top:4rem;
+    right:0.625rem;
+}
+.right-content img{
+    margin:2rem;
+    height:12.5rem;
+}
+.card{
+    width:250px;
+    color:white;
+    background: rgba(14, 170, 187, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(23, 180, 183, 0.73);
+    padding: 0 1.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.card:hover{
+    background: rgba(14, 170, 187, 0.5);
+}
+
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:3rem;
+}
+.abilities{
+    width:40%;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:1rem;
+}
+.group {
+    background-color: #12a0b5;
+    color:white;
+    padding:0.5rem;
+    font-size:12px;
+    border-radius: 8px;
+}
+.base-stat{
+    margin-top:2rem;
+}
+.btn-group {
+    display:flex;
+}
+.btn-group button{
+    outline:none;
+    border:none;
+    width:150px;
+    padding:0.3rem 0;
+    margin:1rem;
+    font-size:17px;
+    font-weight: bold;
+    color:rgb(35, 35, 35);
+    background-color: #c7c7c7;
+    border-radius: 8px;
+}
